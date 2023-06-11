@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Scrap</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free Website Template" name="keywords">
+    <meta content="Free Website Template" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <div class="container-fluid p-0 nav-bar">
+        <nav class="navbar navbar-expand-lg bg-none navbar-dark py-3">
+            <a href="index.html" class="navbar-brand px-lg-4 m-0">
+                <img class="w-100" src="img/new/Logo.jpg" alt="Logo" />
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav ml-auto p-4">
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="Buyers.html" class="nav-item nav-link">We Buy</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">We Sell</a>
+                        <div class="dropdown-menu text-capitalize">
+                            <a href="NewSupplies.html" class="dropdown-item">New Items Selling</a>
+                            <a href="OldSupplies.html" class="dropdown-item">Old Items Selling</a>
+                        </div>
+                    </div>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+    <!-- About Start -->
+    <div class="container-fluid oursection">
+        <div class="container">
+            <div class="section-title">
+                <h1 class="text-primary text-uppercase" style="letter-spacing: 5px;">Enquiry Form</h1>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+    <!-- Contact Start -->
+    <div class="container-fluid oursection">
+        <div class="container">
+            <div class="row" style=" font-size: 16px; font-weight: bold; border: 1px solid #1f8bcb; border-radius: 10px; margin-top: 30px; padding: 10px;">
+                <div class="col-md-2 pb-5"></div>
+                <div class="col-md-8 pb-5">
+                    <div class="contact-form">
+                        <div id="success"></div>
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                            <div class="control-group">
+                                Select Interested Products :
+                                <!--<table>
+                                    <tr>
+                                        <td><p>Enquiry Type:</p></td>
+                                        <td style="padding-bottom: 5px; padding-left: 10px;">
+                                            <input type="radio" id="type1" name="type" value="buy" required="required" data-validation-required-message="Please select enquiry type">
+                                            <label for="type1">Buy</label>
+                                        </td>
+                                        <td style="padding-bottom: 5px; padding-left: 10px;">
+                                            <input type="radio" id="type2" name="type" value="sell">
+                                            <label for="type2">Sell</label>
+                                        </td>
+                                    </tr>
+                                </table>-->
+                                <!--<p class="help-block text-danger"></p>-->
+                            </div>
+                            <div class="control-group" style="border: 1px solid #ced4da; padding: 10px; margin-bottom: 10px; margin-top: 10px;">
+                                <div class="checkbox-group required">
+                                    <input type="checkbox" name="sellitems" id="sell1" value="Square Box">
+                                    <label for="sell1" style="padding-right: 10px;">Square Box</label>
+
+                                    <input type="checkbox" name="sellitems" id="sell2" value="Round Pipe">
+                                    <label for="sell2" style="padding-right: 10px;">Round Pipe</label>
+
+                                    <input type="checkbox" name="sellitems" id="sell3" value="Channnel">
+                                    <label for="sell3" style="padding-right: 10px;">Channnel</label>
+
+                                    <input type="checkbox" name="sellitems" id="sell4" value="Angle">
+                                    <label for="sell4" style="padding-right: 10px;">Angle</label>
+
+                                    <input type="checkbox" name="sellitems" id="sell5" value="Beam">
+                                    <label for="sell5" style="padding-right: 10px;">Beam</label>
+
+                                    <input type="checkbox" name="sellitems" id="sell6" value="Plate">
+                                    <label for="sell6" style="padding-right: 10px;">Plate</label>
+
+                                    <input type="checkbox" name="sellitems" id="sell7" value="Sheet">
+                                    <label for="sell7" style="padding-right: 10px;">Sheet</label>
+                                    <br />
+                                    <input type="checkbox" name="sellitems" id="sell8" value="Rod">
+                                    <label for="sell8" style="padding-right: 10px;">Rod</label>
+
+                                    <input type="checkbox" name="sellitems" id="sell9" value="Flat">
+                                    <label for="sell9" style="padding-right: 10px;">Flat</label>
+
+                                    <input type="checkbox" name="sellitems" id="sell10" value="Cutting Plate">
+                                    <label for="sell10" style="padding-right: 10px;">Cutting Plate</label>
+
+                                    <input type="checkbox" name="sellitems" id="sell11" value="Old Secondary Rails">
+                                    <label for="sell11" style="padding-right: 10px;">Old Secondary Rails</label>
+
+                                    <input type="checkbox" name="sellitems" id="sell12" value="Conveyor G.I Pipe">
+                                    <label for="sell12" style="padding-right: 10px;">Conveyor G.I Pipe</label>
+                                    <br />
+                                    <input type="checkbox" name="sellitems" id="sell13" value="Secondary Angle">
+                                    <label for="sell13" style="padding-right: 10px;">Secondary Angle</label>
+
+                                    <input type="checkbox" name="sellitems" id="sell14" value="Secondary Channel">
+                                    <label for="sell14" style="padding-right: 10px;">Secondary Channel</label>
+
+                                    <input type="checkbox" name="sellitems" id="sell15" value="Secondary G.I Angle">
+                                    <label for="sell15" style="padding-right: 10px;">Secondary G.I Angle</label>
+                                    <br />
+                                    <input type="checkbox" name="sellitems" id="sell16" value="Secondary Billet">
+                                    <label for="sell16" style="padding-right: 10px;">Secondary Billet</label>
+
+                                    <input type="checkbox" name="sellitems" id="sell17" value="Secondary Plate">
+                                    <label for="sell17" style="padding-right: 10px;">Secondary Plate</label>
+
+                                    <input type="checkbox" name="sellitems" id="sell18" value="Secondary Square Pipe">
+                                    <label for="sell18" style="padding-right: 10px;">Secondary Square Pipe</label>
+                                    <br />
+                                    <input type="checkbox" name="sellitems" id="sell19" value="Secondary Beam">
+                                    <label for="sell19" style="padding-right: 10px;">Secondary Beam</label>
+
+                                    <input type="checkbox" name="buyitems" id="buy1" value="Copper Scrap">
+                                    <label for="buy1" style="padding-right: 10px;">Copper Scrap</label>
+                                    <input type="checkbox" name="buyitems" id="buy2" value="Melting Scrap">
+                                    <label for="buy2" style="padding-right: 10px;">Melting Scrap</label>
+                                    <input type="checkbox" name="buyitems" id="buy3" value="Steel Scrap">
+                                    <label for="buy3" style="padding-right: 10px;">Steel Scrap</label>
+                                    <br />
+                                    <input type="checkbox" name="buyitems" id="buy4" value="Shed Demolish">
+                                    <label for="buy4" style="padding-right: 10px;">Shed Demolish</label>
+                                    <input type="checkbox" name="buyitems" id="buy5" value="Aluminium Scrap">
+                                    <label for="buy5" style="padding-right: 10px;">Aluminium Scrap</label>
+                                    <input type="checkbox" name="buyitems" id="buy6" value="Casting Scrap">
+                                    <label for="buy6" style="padding-right: 10px;">Casting Scrap</label>
+                                    <input type="checkbox" name="buyitems" id="buy7" value="Rolling Scrap">
+                                    <label for="buy7" style="padding-right: 10px;">Rolling Scrap</label>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <input type="text" class="form-control bg-transparent p-4" id="name"
+                                       placeholder="Your Name" required="required"
+                                       data-validation-required-message="Please enter your name" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <input type="number" class="form-control bg-transparent p-4" maxlength="10" id="mobile"
+                                       placeholder="Your Mobile" required="required"
+                                       data-validation-required-message="Please enter your mobile" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <input type="email" class="form-control bg-transparent p-4" id="email"
+                                       placeholder="Your Email" required="required"
+                                       data-validation-required-message="Please enter your email" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+
+                            <div class="control-group">
+                                <textarea class="form-control bg-transparent py-3 px-4" rows="5" id="message"
+                                          placeholder="Message" required="required"
+                                          data-validation-required-message="Please enter your message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div align="center">
+                                <button class="btn btn-primary font-weight-bold py-3 px-5" type="submit" onclick="chk();"
+                                        id="sendMessageButton">
+                                    Send
+                                    Message
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-2 pb-5"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+    <!-- Footer Start -->
+    <div class="container-fluid footer text-white px-0 position-relative overlay-top">
+        <div class="row mx-0 pt-5 px-sm-3 px-lg-5 mt-4">
+            <div class="col-lg-4 col-md-12 mb-5">
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Get In Touch</h4>
+                <p><i class="fa fa-map-marker-alt mr-2"></i>Chennai,Tamil Nadu.</p>
+                <p><i class="fa fa-phone-alt mr-2"></i>+91 7010669844</p>
+                <p><i class="fa fa-phone-alt mr-2"></i>+91 8939478022</p>
+                <p class="m-0"><i class="fa fa-envelope mr-2"></i>cleanscrapjunk@gmail.com</p>
+            </div>
+            <div class="col-lg-4 col-md-12 mb-5">
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Follow Us</h4>
+                <p>Get in touch with us for latest updates</p>
+                <div class="d-flex justify-content-start">
+                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" target="_blank" href="https://twitter.com/?lang=en-in">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" target="_blank" href="https://www.facebook.com/login.php">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" target="_blank" href="https://www.instagram.com/accounts/login/">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a class="btn btn-lg btn-outline-light btn-lg-square" target="_blank" href="https://www.linkedin.com/login/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 mb-5">
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Open Hours</h4>
+                <div>
+                    <h6 class="text-white text-uppercase">Monday - Friday</h6>
+                    <p>9.00 AM - 6.00 PM</p>
+                    <h6 class="text-white text-uppercase">Saturday - Sunday</h6>
+                    <p>9.00 AM - 2.00 PM</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <div class="div-whatsapp">
+        <div id="btn_whatsapp">
+            <a href="https://api.whatsapp.com/send?phone=918939478022" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="74" height="74" viewBox="0 0 39 39" class="whs_click"><path class="whs_click" fill="#00E676" d="M10.7 32.8l.6.3c2.5 1.5 5.3 2.2 8.1 2.2 8.8 0 16-7.2 16-16 0-4.2-1.7-8.3-4.7-11.3s-7-4.7-11.3-4.7c-8.8 0-16 7.2-15.9 16.1 0 3 .9 5.9 2.4 8.4l.4.6-1.6 5.9 6-1.5z"></path><path fill="#FFF" d="M32.4 6.4C29 2.9 24.3 1 19.5 1 9.3 1 1.1 9.3 1.2 19.4c0 3.2.9 6.3 2.4 9.1L1 38l9.7-2.5c2.7 1.5 5.7 2.2 8.7 2.2 10.1 0 18.3-8.3 18.3-18.4 0-4.9-1.9-9.5-5.3-12.9zM19.5 34.6c-2.7 0-5.4-.7-7.7-2.1l-.6-.3-5.8 1.5L6.9 28l-.4-.6c-4.4-7.1-2.3-16.5 4.9-20.9s16.5-2.3 20.9 4.9 2.3 16.5-4.9 20.9c-2.3 1.5-5.1 2.3-7.9 2.3zm8.8-11.1l-1.1-.5s-1.6-.7-2.6-1.2c-.1 0-.2-.1-.3-.1-.3 0-.5.1-.7.2 0 0-.1.1-1.5 1.7-.1.2-.3.3-.5.3h-.1c-.1 0-.3-.1-.4-.2l-.5-.2c-1.1-.5-2.1-1.1-2.9-1.9-.2-.2-.5-.4-.7-.6-.7-.7-1.4-1.5-1.9-2.4l-.1-.2c-.1-.1-.1-.2-.2-.4 0-.2 0-.4.1-.5 0 0 .4-.5.7-.8.2-.2.3-.5.5-.7.2-.3.3-.7.2-1-.1-.5-1.3-3.2-1.6-3.8-.2-.3-.4-.4-.7-.5h-1.1c-.2 0-.4.1-.6.1l-.1.1c-.2.1-.4.3-.6.4-.2.2-.3.4-.5.6-.7.9-1.1 2-1.1 3.1 0 .8.2 1.6.5 2.3l.1.3c.9 1.9 2.1 3.6 3.7 5.1l.4.4c.3.3.6.5.8.8 2.1 1.8 4.5 3.1 7.2 3.8.3.1.7.1 1 .2h1c.5 0 1.1-.2 1.5-.4.3-.2.5-.2.7-.4l.2-.2c.2-.2.4-.3.6-.5s.4-.4.5-.6c.2-.4.3-.9.4-1.4v-.7s-.1-.1-.3-.2z"></path></svg>
+            </a>
+        </div>
+    </div>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/EnquiryMail.js"></script>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script type="text/javascript">
+        function chk() {
+            var sell = "";
+            var buy = "";
+            $('input[name="buyitems"]:checked').each(function () {
+                sell += this.value + ',';
+            });
+
+            $('input[name="sellitems"]:checked').each(function () {
+                buy += this.value + ',';
+            });
+            if (buy == "" && sell == "") {
+                alert('Please select interested products !!!');
+                return false;
+            }
+            else {
+                return true;
+            }
+        }
+    </script>
+</body>
+
+</html>
